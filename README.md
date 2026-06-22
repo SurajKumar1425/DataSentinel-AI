@@ -1,53 +1,110 @@
 # 🚀 DataSentinel AI
 
-### AI-Powered Data Quality & Schema Drift Detection Platform
+### 🛡️ The AI Guardian for Modern Data Pipelines
 
-DataSentinel AI is an intelligent data reliability platform that detects schema drift, validates data quality, and prevents bad data from entering modern data pipelines.
-
----
-
-## 🔥 Features
-
-- 🛡️ Schema Drift Detection
-- 📊 Data Quality Monitoring
-- 🚨 Missing & Duplicate Data Detection
-- 🤖 AI-Powered Issue Explanation
-- 📄 Automated Data Health Reports
-- ⚡ Pipeline Reliability Monitoring
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)]()
+[![AI](https://img.shields.io/badge/AI-Powered-green.svg)]()
+[![Data Engineering](https://img.shields.io/badge/Data-Engineering-orange.svg)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)]()
 
 ---
 
-## 🏗️ Architecture
+## 🌟 Overview
 
+DataSentinel AI is an AI-powered Data Reliability Platform designed to protect modern data pipelines by detecting schema drift, validating data quality, and preventing bad data from reaching data warehouses.
+
+---
+
+## 🚨 The Problem
+
+Modern organizations depend on data pipelines. A small change in data schema, missing values, or unexpected data anomalies can break dashboards, ML models, and business decisions.
+
+---
+
+## 💡 The Solution
+
+DataSentinel AI acts as an intelligent guard layer between data sources and data warehouses.
+
+```
 Data Source
      ↓
 DataSentinel AI
      ↓
 Data Warehouse
+```
+
+---
+
+## ✨ Core Features
+
+### 🛡️ Schema Drift Detection
+- Detect missing columns
+- Detect new columns
+- Identify data type changes
+
+### 📊 Data Quality Monitoring
+- Missing value analysis
+- Duplicate record detection
+- Invalid data checks
+- Data quality scoring
+
+### 🤖 AI Data Intelligence
+- Explain data issues
+- Identify possible root causes
+- Suggest smart fixes
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python
-- Pandas
-- Streamlit
-- FastAPI
-- PostgreSQL
-- Machine Learning
+| Category | Technologies |
+|----------|--------------|
+| Language | Python |
+| Data Processing | Pandas |
+| Dashboard | Streamlit |
+| API | FastAPI |
+| Database | PostgreSQL |
+| AI/ML | Scikit-learn, LLM APIs |
 
 ---
 
-## 🎯 Mission
+## 🗺️ Roadmap
 
-Building the trust layer between raw data and business decisions.
+- ✅ Repository Setup
+- 🚧 MVP Development
+- 🔜 Interactive Dashboard
+- 🔜 AI Intelligence Engine
+- 🔜 Enterprise SaaS Platform
 
 ---
 
-## 🚀 Future Roadmap
+## 📂 Project Structure
 
-- Real-time Data Monitoring
-- API & Database Integration
-- AI Root Cause Analysis
-- Automated Data Fix Suggestions
-- Cloud Deployment
+```
+DataSentinel-AI/
+│
+├── src/
+├── data/
+├── assets/
+├── tests/
+├── README.md
+└── LICENSE
+```
+
+---
+
+## 🎯 Vision
+
+To become the trust layer between raw data and business decisions.
+
+---
+
+## 🤝 Contribution
+
+Contributions, suggestions, and feedback are welcome!
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a star ⭐
